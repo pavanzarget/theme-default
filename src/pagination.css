@@ -198,9 +198,10 @@
       }
 
       &.active {
-        border-color: var(--pagination-hover-fill);
-        background-color: var(--pagination-hover-fill);
-        color: var(--pagination-hover-color);
+        border-color: var(--app-btn-border);
+        background-color: var(--app-btn-fill);
+        background: var(--app-btn-gradient);
+        color: var(--color-white);
         cursor: default;
       }
     }

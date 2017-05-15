@@ -109,7 +109,7 @@
       }
     }
     @m primary {
-      @mixin button-variant var(--button-primary-color), var(--button-primary-fill), var(--button-primary-border);
+      @mixin button-variant var(--color-white), var(--app-btn-fill), var(--app-btn-border), var(--app-btn-gradient);
     }
     @m success {
       @mixin button-variant var(--button-success-color), var(--button-success-fill), var(--button-success-border);

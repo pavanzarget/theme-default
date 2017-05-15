@@ -1,6 +1,7 @@
-@define-mixin button-variant $color, $background-color, $border-color {
+@define-mixin button-variant $color, $background-color, $border-color, $background-gradient {
   color: $color;
   background-color: $background-color;
+  background: $background-gradient;
   border-color: $border-color;
 
   &:hover,
