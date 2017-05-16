@@ -87,7 +87,7 @@
 
   @keyframes dialog-fade-in {
     0% {
-      transform: translate3d(0, -20px, 0);
+      transform: translate3d(20px, 0, 0);
       opacity: 0;
     }
     100% {
@@ -102,7 +102,7 @@
       opacity: 1;
     }
     100% {
-      transform: translate3d(0, -20px, 0);
+      transform: translate3d(20px, 0, 0);
       opacity: 0;
     }
   }
