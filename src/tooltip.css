@@ -106,7 +106,8 @@
 
       @when light {
         background: var(--tooltip-color);
-        border: 1px solid var(--tooltip-fill);
+        // border: 1px solid var(--tooltip-fill);
+        box-shadow: 0 1px 3px #aaa;
 
         &[x-placement^="top"] .popper__arrow {
           border-top-color: var(--tooltip-fill);
@@ -115,7 +116,7 @@
           }
         }
         &[x-placement^="bottom"] .popper__arrow {
-          border-bottom-color: var(--tooltip-fill);
+          border-bottom-color: rgba(0, 0, 0, 0.12);
           &::after {
             border-bottom-color: var(--tooltip-color);
           }
