@@ -4,7 +4,7 @@
 @component-namespace el {
   @b tabs {
     @e header {
-      border-bottom: 1px solid var(--color-base-gray);
+      border-bottom: 1px solid var(--app-bd-color);
       padding: 0;
       position: relative;
       margin: 0 0 15px;
@@ -80,7 +80,7 @@
       display: inline-block;
       list-style: none;
       font-size: 14px;
-      color: var(--color-base-silver);
+      color: var(--app-text-color-a);
       position: relative;
 
       & .el-icon-close {
@@ -134,8 +134,9 @@
         transform-origin: 100% 50%;
       }
       > .el-tabs__header .el-tabs__item {
-        border: 1px solid transparent;
+        border: 1px solid var(--app-bd-color);
         transition: all .3s cubic-bezier(.645,.045,.355,1);
+        border-radius: 3px 3px 0 0;
               
         &.is-closable {
           &:hover {
@@ -149,7 +150,7 @@
         &.is-active {
           border: 1px solid var(--color-base-gray);
           border-bottom-color: var(--color-white);
-          border-radius: 4px 4px 0 0;
+          border-radius: 3px 3px 0 0;
 
           &.is-closable {
             padding: * 16px;
