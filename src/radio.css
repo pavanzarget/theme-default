@@ -57,12 +57,15 @@
 
       @when checked {
         .el-radio__inner {
-          border-color: var(--radio-checked-input-border-color);
-          background: var(--radio-checked-icon-color);
+          border-color: #ccc;
+          background: #fff;
 
           &::after {
             transform: translate(-50%, -50%) scale(1);
           }
+        }
+        & + .el-radio__label{
+          color: #4A90E2;
         }
       }
 
@@ -86,7 +89,7 @@
       }
 
       &::after {
-        circle: 6px var(--color-white);
+        circle: 10px #4A90E2;
         content: "";
         position: absolute;
         left: 50%;

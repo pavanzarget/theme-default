@@ -118,12 +118,12 @@
         border: 2px solid var(--checkbox-checked-icon-color);
         border-left: 0;
         border-top: 0;
-        height: 8px;
+        height: 7px;
         left: 5px;
         position: absolute;
         top: 1px;
         transform: rotate(45deg) scaleY(0);
-        width: 4px;
+        width: 3px;
         transition: transform .15s cubic-bezier(.71,-.46,.88,.6) .05s;
         transform-origin: center;
       }
@@ -158,8 +158,8 @@
       white-space: nowrap;
       vertical-align: middle;
       cursor: pointer;
-      background: var(--button-default-fill);
-      border: var(--border-base);
+      background: #4A90E2;
+      border: #4A90E2;
       border-left: 0;
       color: var(--button-default-color);
       -webkit-appearance: none;
